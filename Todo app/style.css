@@ -1,0 +1,46 @@
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#heading {
+    text-align: center;
+    font-size: 2.5rem;
+}
+.container {
+    display: grid;
+    grid-template-columns: 205px 160px 140px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.items {
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+   
+}
+input {
+    background: white;
+    border-radius: 25px;
+    font-size: 1rem;
+    border: none;
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+}
+#add {
+    background: yellow;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#delete {
+    background: red;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
