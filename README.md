@@ -22,3 +22,5 @@ A simple yet functional to-do list web app built with HTML, CSS, and vanilla Jav
   - CSS3
   - JavaScript (ES6)
 - **No external dependencies**
+
+![Todo APP Screenshot](./screenshot.png)
